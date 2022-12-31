@@ -1,0 +1,27 @@
+{
+  "name": "redoc",
+  "version": "1.0.0",
+  "description": "Docusaurus template like React Beta site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vostrik/redoc.git"
+  },
+  "author": "vostrik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vostrik/redoc/issues"
+  },
+  "homepage": "https://github.com/vostrik/redoc#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "sass": "^1.57.1",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.3"
+  }
+}

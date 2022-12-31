@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"
+        href="./index.scss">
+</head>
+
+<div id="app"></div>
+
+<body class="page">
+  <header class="page__header">
+    <a href="/">Project Docs</a>
+    <button>Light / Dark</button>
+    <label>
+      <input type="text"
+             name="search"
+             placeholder="Search" />
+      <input type="submit" />
+    </label>
+    <nav>
+      <a href="#">Learn</a>
+      <a href="#">Reference</a>
+      <ul>
+        <h3>Get started</h3>
+        <li>
+          <a href="#">Installation</a>
+          <ul>
+            <li><a href="#">Start a new Project</a></li>
+            <li><a href="#">Use partially</a></li>
+            <li><a href="#">Debug and Development</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Quick Start</a>
+          <ul>
+            <li><a href="#">Tutorial: Standalone</a></li>
+            <li><a href="#">Tutorial: Micro Frontend</a></li>
+            <li><a href="#">Tutorial: UI Kit</a></li>
+          </ul>
+        </li>
+        <li role="separator"></li>
+        <h3>Learn Project</h3>
+        <li><a href="#">High Level Architecture</a></li>
+        <li><a href="#">UI Kit</a></li>
+        <li><a href="#">Server-driven UI</a></li>
+        <li><a href="#">Integration Platform</a></li>
+        <li role="separator"></li>
+        <h3>About Project</h3>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Changelog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page__main">
+    <h1>Project Docs</h1>
+    <p>Welcome to the Project Docs.</p>
+    <h2>Features</h2>
+    <p>Main Project features are</p>
+    <ol>
+      <li>UI Kit</li>
+      <li>Server-driven UI</li>
+      <li>Integration Platform</li>
+    </ol>
+    <h2>Overview</h2>
+    <p>High Level Project overview.. easy-breezy & simple-dimple.</p>
+    <h2>Try Project</h2>
+    <code>123123</code>
+    <h2>Next Steps</h2>
+    <p>Stay tuned!</p>
+  </main>
+  <div class="hidden lg:max-w-xs 2xl:block">
+    <nav role="navigation" class="pt-[22px] sticky top-0 right-0">
+      <h2 class="mb-3 lg:mb-3 uppercase tracking-wide font-bold text-sm text-secondary dark:text-secondary-dark px-4 w-full">On this page</h2>
+      <div class="h-full overflow-y-auto pl-4 max-h-[calc(100vh-7.5rem)]">
+        <ul class="space-y-2 pb-16">
+          <li class="text-sm px-2 rounded-l-lg">
+            <a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#">Overview</a>
+          </li>
+          <li class="text-sm px-2 rounded-l-lg"><a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#familiar-props">Familiar props </a></li><li class="text-sm px-2 rounded-l-lg"><a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#passing-props-to-a-component">Passing props to a component </a></li><li class="text-sm px-2 rounded-l-lg pl-4"><a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#step-1-pass-props-to-the-child-component">Step 1: Pass props to the child component </a></li><li class="text-sm px-2 rounded-l-lg pl-4"><a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#step-2-read-props-inside-the-child-component">Step 2: Read props inside the child component </a></li><li class="text-sm px-2 rounded-l-lg"><a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#specifying-a-default-value-for-a-prop">Specifying a default value for a prop </a></li><li class="text-sm px-2 rounded-l-lg"><a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#forwarding-props-with-the-jsx-spread-syntax">Forwarding props with the JSX spread syntax </a></li><li class="text-sm px-2 rounded-l-lg bg-highlight dark:bg-highlight-dark"><a class="text-link dark:text-link-dark font-bold block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#passing-jsx-as-children">Passing JSX as children </a></li><li class="text-sm px-2 rounded-l-lg"><a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#how-props-change-over-time">How props change over time </a></li><li class="text-sm px-2 rounded-l-lg"><a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#recap">Recap</a></li><li class="text-sm px-2 rounded-l-lg"><a class="text-secondary dark:text-secondary-dark block hover:text-link dark:hover:text-link-dark leading-normal py-2" href="#challenges">Challenges</a></li></ul></div></nav></div>
+  <nav class="page__toc">
+    <h3>On this page</h3>
+    <ul>
+      <li><a href="#">Welcome</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Overview</a></li>
+      <li><a href="#">Try Project</a></li>
+      <li><a href="#">Next steps</a></li>
+    </ul>
+  </nav>
+  <footer class="page__footer auto-column footer">
+    <div class="auto-column__item footer-copyright">
+      <div class="footer-copyright__title">Project</div>
+      <div class="footer-copyright__description">Docs &copy; 2022</div>
+    </div>
+    <div class="auto-column__item">
+      <nav class="footer-nav">
+        <ul>
+          <li><a class="footer-nav__link footer-nav__link--header"
+               href="#">Learn Project</a></li>
+          <li><a class="footer-nav__link"
+               href="#">High Level Architecture</a></li>
+          <li><a class="footer-nav__link"
+               href="#">UI Kit</a></li>
+          <li><a class="footer-nav__link"
+               href="#">Server-driven UI</a></li>
+          <li><a class="footer-nav__link"
+               href="#">Integration Platform</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="auto-column__item">
+      <nav class="footer-nav">
+        <ul>
+          <li><a class="footer-nav__link footer-nav__link--header"
+               href="#">API Reference</a></li>
+          <li><a class="footer-nav__link"
+               href="#">High Level Architecture</a></li>
+          <li><a class="footer-nav__link"
+               href="#">UI Kit</a></li>
+          <li><a class="footer-nav__link"
+               href="#">Server-driven UI</a></li>
+          <li><a class="footer-nav__link"
+               href="#">Integration Platform</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="auto-column__item">
+      <nav class="footer-nav">
+        <ul>
+          <li><a class="footer-nav__link footer-nav__link--header"
+               href="#">About Project</a></li>
+          <li><a class="footer-nav__link"
+               href="#">Community</a></li>
+          <li><a class="footer-nav__link"
+               href="#">Team</a></li>
+          <li><a class="footer-nav__link"
+               href="#">Changelog</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="auto-column__item">
+      <nav class="footer-nav">
+        <ul>
+          <li><a class="footer-nav__link footer-nav__link--header"
+               href="#">Contacts</a></li>
+          <li><a class="footer-nav__link"
+               href="email:mail@project.com">mail@project.com</a></li>
+          <li><a class="footer-nav__link"
+               href="#">twitter: @project</a></li>
+          <li><a class="footer-nav__link"
+               href="#">github: @project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>
